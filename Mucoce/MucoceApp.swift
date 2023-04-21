@@ -6,12 +6,13 @@
 //
 
 import SwiftUI
+import ScriptingBridge
 
 @main
 struct MucoceApp: App {
     var body: some Scene {
-        WindowGroup {
+        MenuBarExtra("Mucoce", systemImage: "music.note") {
             ContentView()
-        }
+        }.menuBarExtraStyle(.window)
     }
 }

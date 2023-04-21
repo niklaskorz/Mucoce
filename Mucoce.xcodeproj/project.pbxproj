@@ -11,6 +11,8 @@
 		452D441029F2DFF00010D4EE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452D440F29F2DFF00010D4EE /* ContentView.swift */; };
 		452D441229F2DFF10010D4EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 452D441129F2DFF10010D4EE /* Assets.xcassets */; };
 		452D441529F2DFF10010D4EE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 452D441429F2DFF10010D4EE /* Preview Assets.xcassets */; };
+		452D441E29F2E6340010D4EE /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452D441C29F2E6340010D4EE /* Music.swift */; };
+		452D441F29F2E6340010D4EE /* MusicScripting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452D441D29F2E6340010D4EE /* MusicScripting.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		452D441129F2DFF10010D4EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		452D441429F2DFF10010D4EE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		452D441629F2DFF10010D4EE /* Mucoce.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Mucoce.entitlements; sourceTree = "<group>"; };
+		452D441C29F2E6340010D4EE /* Music.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
+		452D441D29F2E6340010D4EE /* MusicScripting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicScripting.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,8 @@
 		452D440C29F2DFF00010D4EE /* Mucoce */ = {
 			isa = PBXGroup;
 			children = (
+				452D441C29F2E6340010D4EE /* Music.swift */,
+				452D441D29F2E6340010D4EE /* MusicScripting.swift */,
 				452D440D29F2DFF00010D4EE /* MucoceApp.swift */,
 				452D440F29F2DFF00010D4EE /* ContentView.swift */,
 				452D441129F2DFF10010D4EE /* Assets.xcassets */,
@@ -141,6 +147,8 @@
 			files = (
 				452D441029F2DFF00010D4EE /* ContentView.swift in Sources */,
 				452D440E29F2DFF00010D4EE /* MucoceApp.swift in Sources */,
+				452D441E29F2E6340010D4EE /* Music.swift in Sources */,
+				452D441F29F2E6340010D4EE /* MusicScripting.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,9 +279,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Mucoce/Preview Content\"";
 				DEVELOPMENT_TEAM = UKF976ENJ6;
-				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_HARDENED_RUNTIME = NO;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSAppleEventsUsageDescription = "Requires access to Apple Music";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -298,9 +308,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Mucoce/Preview Content\"";
 				DEVELOPMENT_TEAM = UKF976ENJ6;
-				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_HARDENED_RUNTIME = NO;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSAppleEventsUsageDescription = "Requires access to Apple Music";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
